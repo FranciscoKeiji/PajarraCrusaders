@@ -68,3 +68,28 @@ Ejemplo de Leo clonando el repositorio remoto al local.
 
 
 ***
+
+***
+
+#Parte 3
+**¿Qué es una Pull Request? ¿Cómo podriamos realizar una? ¿Qué utilidad tiene?**
+Es una propuesta para mergear una serie de cambios de una rama a otra. En las pull request se ven las diffs entre las ramas.
+
+La pull request sirve para revisar qué es lo que se ha cambiado en la rama y revisarlo antes de mergearlo con la rama base.
+
+Las pull request se pueden realizar desde Github en el apartado Pull requests del repositorio. 
+
+Luego se le da a New pull requests y se comenta los cambios que ofrece la pull request y se discute la posibilidad de hacer un merge con el encargado de los pull request.
+
+![image](https://github.com/FranciscoKeiji/PajarraCrusaders/assets/153014626/3c1b2765-dbbb-49dd-ab86-59e9752f1a1d)
+
+**Pon ejemplos de conflictos que te hayan surgido durante la resolución de este proyecto.**
+
+Cuando estabamos creando las ramas de cada uno para demostrar que hemos participado entre todos en el proyecto, se nos olvidó crear la rama dev antes de empezar.
+
+También he tenido que ver varios tutoriales para entender de verdad lo visto en clase.
+
+No hemos sabido hacer el pull request desde la terminal. Lo haremos desde github.
+
+Siguen quedando dudas sobre las pull request así que preguntaremos de nuevo en clase.
+
