@@ -68,6 +68,72 @@ Ejemplo de Leo clonando el repositorio remoto al local.
 
 
 ***
+# Parte 2
+
+**Creación de ramas. Recuerda que en la rama master/main sólo debería existir la versión acabada del producto.**
+
+Podemos crear la branch con $ git branch nombrerama o crearla y hacerle checkout con $ git checkout -b nombrerama. Con esto creamos una rama en el git local. Cada uno de nosotros ha creado una rama en el repositorio remoto para demostrar participación
+
+**Proceso de merge entre ramas.**
+
+Para mergear dos ramas, ejecutamos el comando $ git merge en la rama a la que le queremos implementar la otra.
+
+Ejemplo de Izan mergeando la rama valentine en la rama dio.
+
+![image](https://github.com/FranciscoKeiji/PajarraCrusaders/assets/153659311/d2f57e61-6ff8-44f1-9fb2-96b271618502)
+
+**Resolución de conflictos en un merge**
+
+Los conflictos en un merge aparecen cuando intentas hacer merge entre dos ramas que tienen contenido conflictivo. Por ejemplo, si quieres mergear main y dev: en la rama main tienes en el README.md la frase “Hola mundo” y en la rama dev tienes la frase “Hola planeta” el comando merge no sabrá cuál quieres conservar, por lo que te saltará un mensaje que te pedirá elegir manualmente con cuál quedarte.
+
+Te saldrá una rama temporal llamada (main/MERGE). En su README.md tendremos lo siguiente:
+
+<<<<<<< main
+
+Hola mundo
+
+=======
+
+Hola planeta
+
+\>>>>>>> dev;
+
+Una vez borremos la parte que no queremos conservar, guardamos. Hacemos un $ git add y un $ git merge y ya podríamos hacer el merge sin problemas.
+
+Nota: Los conflictos en un merge solo ocurren cuando se mergean dos ramas con líneas evolutivas distintas, es decir, que si el merge (fast-forward) sólo añade cosas a la rama objetivo, no hay posibilidad de conflicto. 
+
+**Diferencias entre un pull y un fetch.**
+
+El pull descarga el repositorio y hace un merge directamente.
+
+El fetch en cambio no es tan radical. Sólo te muestra los cambios que han habido en el remoto.
+
+**¿Cómo podríamos volver a una versión anterior del proyecto?**
+
+Los commits no son más que snapshots del repositorio en un cierto momento. Con git revert se pueden eliminar los cambios en el repositorio realizados en el commit indicado. Para ello usamos $ git revert id_commit siendo id_commit el identificador que se le atribuye al commit que queremos revertir.
+
+Ejemplo de identificador del commit en el que corrigo un typo en el archivo DOCUMENTACION.md:
+
+![image](https://github.com/FranciscoKeiji/PajarraCrusaders/assets/153659311/6c9df6d8-3be2-47d3-a655-d8e644c82d68)
+
+**¿Podemos añadir seguridad de alguna forma a nuestro repositorio remoto?**
+
+Podemos crear un SECURITY.md que explique como reportar vulnerabilidades a los contribuidores del proyecto. Esto se hace desde Security y Policy dándole a Start setup.
+
+![image](https://github.com/FranciscoKeiji/PajarraCrusaders/assets/153659311/2fdbbc93-9b6e-4c87-ae3f-b6305bd0a13b)
+
+Una vez dentro, escribimos las instrucciones para reportar vulnerabilidades y hacemos un commit para guardar cambios.
+
+![image](https://github.com/FranciscoKeiji/PajarraCrusaders/assets/153659311/5685c581-f7ac-490f-a9f4-a4533c183a11)
+
+Otra cosa que podemos hacer es añadir reglas de protección de ramas.
+
+![image](https://github.com/FranciscoKeiji/PajarraCrusaders/assets/153659311/5802f002-186e-4d07-957f-611f477271d5)
+
+Tras darle a añadir reglas de protección, podremos elegir qué requisitos y protecciones aplicar a cada rama.
+
+![image](https://github.com/FranciscoKeiji/PajarraCrusaders/assets/153659311/bc57d5df-5194-4b99-b790-3ba9a1beefb5)
+
 
 ***
 
