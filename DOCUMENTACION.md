@@ -95,3 +95,4 @@ No hemos sabido hacer el pull request desde la terminal. Lo haremos desde github
 
 Siguen quedando dudas sobre las pull request así que preguntaremos de nuevo en clase.
 
+Hemos hecho muchas cosas en la rama main en vez de mergearla al terminar.
