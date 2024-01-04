@@ -71,8 +71,10 @@ Ejemplo de Leo clonando el repositorio remoto al local.
 
 ***
 
-#Parte 3
+# Parte 3
+
 **¿Qué es una Pull Request? ¿Cómo podriamos realizar una? ¿Qué utilidad tiene?**
+
 Es una propuesta para mergear una serie de cambios de una rama a otra. En las pull request se ven las diffs entre las ramas.
 
 La pull request sirve para revisar qué es lo que se ha cambiado en la rama y revisarlo antes de mergearlo con la rama base.
