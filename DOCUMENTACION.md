@@ -156,9 +156,3 @@ Luego se le da a New pull requests y se comenta los cambios que ofrece la pull r
 Cuando estabamos creando las ramas de cada uno para demostrar que hemos participado entre todos en el proyecto, se nos olvidó crear la rama dev antes de empezar.
 
 También he tenido que ver varios tutoriales para entender de verdad lo visto en clase.
-
-No hemos sabido hacer el pull request desde la terminal. Lo haremos desde github.
-
-Siguen quedando dudas sobre las pull request así que preguntaremos de nuevo en clase.
-
-Hemos hecho muchas cosas en la rama main en vez de mergearla al terminar.
