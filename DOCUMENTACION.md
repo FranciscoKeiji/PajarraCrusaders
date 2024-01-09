@@ -19,7 +19,17 @@ Esta documentación se está haciendo con el uso de Markdown
 
 **¿Qué son y qué utilidad tienen las licencias?**
 
-Las licencias sirven para controlar el uso que se le da al software. (p.e. La licencia GPL garantiza al usuario final la ejecución, estudio, modificación y distribución del software. El kernel de linux tiene licencia GPL)
+Hay varias licencias en el mundo del software.
+
+Las licencias sirven para controlar el uso que se le da al software. 
+
+La licencia MIT (Massachusetts Institute of Technology) .
+
+La licencia GNU GPL garantiza al usuario final la ejecución, estudio, modificación y distribución del software. El kernel de linux tiene licencia GPL
+
+La licencia Apache .
+
+Si no le pones ninguna licencia a tu software, .
 
 **¿Qué es el fichero .gitignore?**
 
@@ -147,12 +157,27 @@ La pull request sirve para revisar qué es lo que se ha cambiado en la rama y re
 
 Las pull request se pueden realizar desde Github en el apartado Pull requests del repositorio. 
 
+![image](https://github.com/FranciscoKeiji/PajarraCrusaders/assets/153014626/3c1b2765-dbbb-49dd-ab86-59e9752f1a1d)
+
 Luego se le da a New pull requests y se comenta los cambios que ofrece la pull request y se discute la posibilidad de hacer un merge con el encargado de los pull request.
 
-![image](https://github.com/FranciscoKeiji/PajarraCrusaders/assets/153014626/3c1b2765-dbbb-49dd-ab86-59e9752f1a1d)
+
+
+Para aceptar el pull requests, uno tiene que ser colaborador del proyecto y cumplir con las Rulesets, si es que hay alguna. 
+
+![Captura desde 2024-01-09 18-58-39](https://github.com/FranciscoKeiji/PajarraCrusaders/assets/153014626/dd98e739-f8ca-47e2-829d-28b59bbb4792)
+
+Después de darle a Merge pull request se te pide una confirmación.
+
+Una vez confirmada, Github te informará de que se han mergeado
+
+![Captura desde 2024-01-09 19-03-58](https://github.com/FranciscoKeiji/PajarraCrusaders/assets/153014626/bde71fd1-1500-4c0d-b1f9-376f5c4d7ae0)
+
+Tras el mergeo, tendrás la elección de borrar la branch usada. 
 
 **Pon ejemplos de conflictos que te hayan surgido durante la resolución de este proyecto.**
 
-Cuando estabamos creando las ramas de cada uno para demostrar que hemos participado entre todos en el proyecto, se nos olvidó crear la rama dev antes de empezar.
+Cuando estabamos creando las ramas de cada uno para demostrar que hemos participado entre todos en el proyecto, se nos olvidó crear la rama dev antes de empezar. Así que la hemos creado después.
 
-También he tenido que ver varios tutoriales para entender de verdad lo visto en clase.
+También he tenido que ver varios tutoriales para entender de verdad lo visto en clase. Al final sigo sin entender algunas cosas, pero bueno.
+
