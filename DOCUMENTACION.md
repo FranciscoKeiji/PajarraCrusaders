@@ -167,7 +167,7 @@ Luego se le da a New pull requests y se comenta los cambios que ofrece la pull r
 
 
 
-Para aceptar el pull requests, uno tiene que ser colaborador del proyecto y cumplir con las Rulesets, si es que hay alguna. 
+Para aceptar la pull request, uno tiene que ser colaborador del proyecto y cumplir con las Rulesets, si es que hay alguna. 
 
 ![Captura desde 2024-01-09 18-58-39](https://github.com/FranciscoKeiji/PajarraCrusaders/assets/153014626/dd98e739-f8ca-47e2-829d-28b59bbb4792)
 
@@ -177,7 +177,7 @@ Una vez confirmada, Github te informará de que se han mergeado
 
 ![Captura desde 2024-01-09 19-03-58](https://github.com/FranciscoKeiji/PajarraCrusaders/assets/153014626/bde71fd1-1500-4c0d-b1f9-376f5c4d7ae0)
 
-Tras el mergeo, tendrás la elección de borrar la branch usada. 
+Tras el mergeo, tendrás la elección de borrar la branch usada o conservarla. 
 
 **Pon ejemplos de conflictos que te hayan surgido durante la resolución de este proyecto.**
 
