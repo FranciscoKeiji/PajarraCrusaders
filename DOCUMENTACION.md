@@ -179,6 +179,62 @@ Una vez confirmada, Github te informará de que se han mergeado
 
 Tras el mergeo, tendrás la elección de borrar la branch usada o conservarla. 
 
+## GUI GitKraken ejemplos
+
+Clonamos nuestro repositorio en gitkraken después de iniciar sesión con mi cuenta de GitHub (Izan)
+
+![imagen](https://github.com/FranciscoKeiji/PajarraCrusaders/assets/153659311/1909fc71-88a7-42ed-a21b-11a8f534bd6a)
+
+Para hacer un commit en gitkraken, he entrado a un archivo que teníamos creado en la rama “dio” y he añadido texto a lo que ya había antes:
+
+![imagen](https://github.com/FranciscoKeiji/PajarraCrusaders/assets/153659311/41ea7d06-a45d-454e-9083-588ed16f1b92)
+
+Después le he dado al botón de “Stage File” de arriba a la derecha para guardar los cambios, después he añadido el mensaje del commit abajo a la derecha y le he dado a commit changes to 1 file: 
+
+![imagen](https://github.com/FranciscoKeiji/PajarraCrusaders/assets/153659311/a5261c39-c494-44d9-9bcd-92a5d23087ce)
+
+Para hacer un push Leo ha modificado lo que había dentro del README de su rama, ha hecho el respectivo commit y le ha dado al botón de push
+
+![imagen](https://github.com/FranciscoKeiji/PajarraCrusaders/assets/153659311/88675db0-236f-46f2-afac-994cb3d349b2)
+
+Los push se hacen desde Local
+
+Para hacer el pull, es tan simple como darle al botón de pull arriba, lo hemos hecho en la rama “valentine”
+
+![imagen](https://github.com/FranciscoKeiji/PajarraCrusaders/assets/153659311/de05a033-650c-4165-ae93-07cc737b9c70)
+
+### Gestión de ramas:
+
+Mergear:
+
+Leo Mergeó la rama dio con la rama ChaniBranch, se hace clickeando una rama y arrastrándola hacia la rama con la que deseemos hacer el merge, sin embargo, hubo un conflicto a la hora de mergear.
+
+Resolución de conflictos:
+
+![imagen](https://github.com/FranciscoKeiji/PajarraCrusaders/assets/153659311/98eb1441-8576-4432-8c1d-f691b1673164)
+
+Clickeando el botón de mark all resolved nos manda al archivo con todo solucionado
+
+![imagen](https://github.com/FranciscoKeiji/PajarraCrusaders/assets/153659311/ae2f18a0-456d-48dd-aa2b-4efdf22cbb6d)
+
+por lo tanto, el merge se ha conseguido realizar.
+
+Eliminar:
+
+Para eliminar una rama, le damos click derecho y delete (en este caso) “valentine”
+
+![imagen](https://github.com/FranciscoKeiji/PajarraCrusaders/assets/153659311/a2f14889-9702-43bb-9605-e7f0c55124bd)
+
+Creación:
+
+para crear una rama desde gitkraken seleccionamos la rama base desde la que crearemos la nueva rama, después le damos al botón “branch” de arriba
+
+![imagen](https://github.com/FranciscoKeiji/PajarraCrusaders/assets/153659311/16713a9d-dbeb-4ac3-9c53-c38c1b6265f0)
+
+después introducimos un nombre y ya tendríamos la rama creada
+
+![imagen](https://github.com/FranciscoKeiji/PajarraCrusaders/assets/153659311/e71a1709-6475-4d60-93b4-383be26938c3)
+
 **Pon ejemplos de conflictos que te hayan surgido durante la resolución de este proyecto.**
 
 Cuando estabamos creando las ramas de cada uno para demostrar que hemos participado entre todos en el proyecto, se nos olvidó crear la rama dev antes de empezar. Así que la hemos creado después.
