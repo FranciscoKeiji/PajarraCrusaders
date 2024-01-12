@@ -23,17 +23,17 @@ Hay varias licencias en el mundo del software.
 
 Las licencias sirven para controlar el uso que se le da al software. 
 
-free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so
+La licencia MIT (Massachusetts Institute of Technology) garantiza, a cualquier persona que consiga una copia del software, usarlo, modificarlo, publicarlo, distribuirlo, sublicenciarlo y venderlo.
 
-La licencia MIT (Massachusetts Institute of Technology) permite usar, modificar, mezclar, publicar, distribuir, sublicenciar y vender a cualquier persona que consiga una copia del software.
+La licencia GNU GPL garantiza al usuario final la libre ejecución, estudio, modificación y distribución del software. Todas las copias de un software bajo esta licencia, deberán pertenecer también a la misma.
 
-La licencia GNU GPL garantiza al usuario final la ejecución, estudio, modificación y distribución del software. El kernel de linux tiene licencia GPL
+La diferencia entre la licencia MIT y la GNU GPL es que la MIT no restringe el uso comercial, mientras que la GPL garantiza que cualquier software que use código, que pertenezca a una licencia GPL, debe ser también código abierto.
 
-La diferencia entre la licencia MIT y la GNU GPL es que la MIT no restringe el uso comercial, mientras que la GPL garantiza que cualquier software que use código, que pertenezca a una licencia GPL, debe ser también código abierto
+La licencia Apache permite el uso comercial, la modificación, distribución, sublicenciamiento, uso privado y uso de patentes sobre el software.
 
-La licencia Apache .
+Con esto surge una pregunta: ¿Qué pasa si no le asigno una licencia a mi software?
 
-Cuando creas un programa, éste se encuentra bajo copyright exclusivo por defecto. A menos que incluyas una licencia que lo niegue, nadie puede copiar, distribuir o modificar tu programa sin estar a riesgo de consecuencias legales.
+Cuando creas un programa, éste se encuentra bajo copyright exclusivo por defecto. Esto significa que a menos que incluyas una licencia que lo niegue, nadie puede copiar, distribuir o modificar tu programa sin estar a riesgo de consecuencias legales.
 
 **¿Qué es el fichero .gitignore?**
 
