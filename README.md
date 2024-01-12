@@ -1,5 +1,3 @@
 # PajarraCrusaders 
 
-Se que esperabas una nueva rama branch  
-
-PERO ERA YO, IZAN
+Estoy editando esto desde GitKracken
